@@ -1,0 +1,39 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#23#7#6'Height'#3#240#0#3'Top'#3#188#1#5'W'
+  +'idth'#3#200#2#7'Caption'#6#5'Form1'#12'ClientHeight'#3#240#0#11'ClientWidth'
+  +#3#200#2#5'Color'#4#233'x'#28#0#8'OnCreate'#7#10'FormCreate'#10'LCLVersion'#6
+  +#7'2.2.2.0'#0#6'TLabel'#6'Label1'#4'Left'#2#0#6'Height'#2#14#3'Top'#2#19#5'W'
+  +'idth'#3#200#2#5'Align'#7#5'alTop'#9'Alignment'#7#8'taCenter'#7'Caption'#6#6
+  +'Label1'#5'Color'#4'{&&'#0#10'Font.Color'#4#255#167#0#0#9'Font.Name'#6#12'Da'
+  +'mnedDeluxe'#11'ParentColor'#8#10'ParentFont'#8#11'Transparent'#8#7'Visible'
+  +#8#0#0#6'TLabel'#6'Label2'#4'Left'#2#0#6'Height'#2#19#3'Top'#2#0#5'Width'#3
+  +#200#2#5'Align'#7#5'alTop'#7'Caption'#6#1' '#11'ParentColor'#8#0#0#8'TBCLabe'
+  +'l'#8'BCLabel1'#4'Left'#2#0#6'Height'#2'('#3'Top'#2'!'#5'Width'#3#200#2#5'Al'
+  +'ign'#7#5'alTop'#16'Background.Color'#7#8'clYellow'#31'Background.Gradient1.'
+  +'StartColor'#7#6'clBlue'#29'Background.Gradient1.DrawMode'#7#13'dmLinearBlen'
+  +'d'#29'Background.Gradient1.EndColor'#7#8'clMaroon$Background.Gradient1.Colo'
+  +'rCorrection'#8'!Background.Gradient1.GradientType'#7#9'gtDiamond#Background'
+  +'.Gradient1.Point1XPercent'#5#0#0#0#0#0#0#0#200#4'@#Background.Gradient1.Poi'
+  +'nt1YPercent'#5#0#0#0#0#0#0#0#200#4'@#Background.Gradient1.Point2XPercent'#5
+  +#0#0#0#0#0#0#0#240#3'@#Background.Gradient1.Point2YPercent'#5#0#0#0#0#0#0#0#0
+  +#0#0#26'Background.Gradient1.Sinus'#9#31'Background.Gradient2.StartColor'#7#9
+  +'clDefault'#29'Background.Gradient2.EndColor'#7#9'clDefault$Background.Gradi'
+  +'ent2.EndColorOpacity'#2#0'!Background.Gradient2.GradientType'#7#9'gtAngular'
+  +'#Background.Gradient2.Point1XPercent'#5#0#0#0#0#0#0#0#0#0#0'#Background.Gra'
+  +'dient2.Point1YPercent'#5#0#0#0#0#0#0#0#0#0#0'#Background.Gradient2.Point2XP'
+  +'ercent'#5#0#0#0#0#0#0#0#0#0#0'#Background.Gradient2.Point2YPercent'#5#0#0#0
+  +#0#0#0#0#0#0#0#30'Background.Gradient1EndPercent'#5#0#0#0#0#0#0#0#200#5'@'#16
+  +'Background.Style'#7#11'bbsGradient'#12'Border.Style'#7#7'bboNone'#7'Caption'
+  +#6#17'Ich bin dein Test'#12'FontEx.Color'#7#8'clYellow'#20'FontEx.DisabledCo'
+  +'lor'#7#7'clBlack'#18'FontEx.FontQuality'#7#18'fqFineAntialiasing'#13'FontEx'
+  +'.Height'#2#15#11'FontEx.Name'#6#12'DamnedDeluxe'#13'FontEx.Shadow'#9#18'Fon'
+  +'tEx.ShadowColor'#4'w'#167#0#0#19'FontEx.ShadowRadius'#2#7#20'FontEx.ShadowO'
+  +'ffsetX'#2#10#20'FontEx.ShadowOffsetY'#2#5#12'FontEx.Style'#11#0#15'Rounding'
+  +'.RoundX'#2#1#15'Rounding.RoundY'#2#1#8'ShowHint'#9#7'Visible'#8#0#0#7'TButt'
+  +'on'#7'Button1'#4'Left'#2#8#6'Height'#2#25#3'Top'#3#208#0#5'Width'#2'K'#7'Ca'
+  +'ption'#6#5'&Read'#7'OnClick'#7#12'Button1Click'#8'TabOrder'#2#0#0#0#6'TTime'
+  +'r'#6'Timer1'#7'Enabled'#8#8'Interval'#2#1#7'OnTimer'#7#11'Timer1Timer'#4'Le'
+  +'ft'#2#8#3'Top'#2'P'#0#0#0
+]);

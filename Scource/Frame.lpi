@@ -9,7 +9,6 @@
       <Scaled Value="True"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
-      <Icon Value="0"/>
     </General>
     <BuildModes>
       <Item Name="ATMega328P" Default="True"/>
@@ -154,11 +153,117 @@
             <Filename Value="Frame"/>
           </Target>
           <SearchPaths>
-            <IncludeFiles Value="$(ProjOutDir)"/>
-            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\"/>
+            <IncludeFiles Value="$(ProjOutDir);..\..\..\..\fpcupdeluxe\fpcsrc\rtl\unix"/>
+            <Libraries Value="\usr\lib\x86_64-linux-gnu\"/>
+            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\;..\..\..\Programmierung\MyFrames"/>
             <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
           </SearchPaths>
           <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <RelocatableUnit Value="True"/>
+            <TargetProcessor Value="ATHLON64"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="linux"/>
+            <Optimizations>
+              <OptimizationLevel Value="4"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+              <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-d_TrackFrame
+-d_VJ_Set
+-dTrackID
+-dDJ
+-d_VJ
+-d_Prog
+-d_Ethernet
+-d_Run
+-d_Test
+-dCue"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="ToUse\Frame"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);..\..\..\..\fpcupdeluxe\fpcsrc\rtl\unix"/>
+            <Libraries Value="\usr\lib\x86_64-linux-gnu\"/>
+            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\;..\..\..\Programmierung\MyFrames"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <RelocatableUnit Value="True"/>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+            <TargetProcessor Value="ATHLON64"/>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="linux"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+              <UseLineInfoUnit Value="False"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <StripSymbols Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+          </Linking>
+          <Other>
+            <CustomOptions Value="-d_TrackFrame
+-d_VJ_Set
+-d_QR_Prog
+-dTrackID
+-dDJ
+-d_VJ
+-dProg
+-d_Ethernet
+-d_With_VideoCard
+-d_With_VideoFile
+-d_Run
+-dTest"/>
+          </Other>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="ToUse\Frame"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir);..\..\..\..\fpcupdeluxe\fpcsrc\rtl\unix"/>
+            <Libraries Value="\usr\lib\x86_64-linux-gnu\"/>
+            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\;..\..\..\Programmierung\MyFrames"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <RelocatableUnit Value="True"/>
+            <TargetProcessor Value="ATHLON64"/>
             <TargetCPU Value="x86_64"/>
             <TargetOS Value="linux"/>
             <Optimizations>
@@ -167,13 +272,25 @@
           </CodeGeneration>
           <Linking>
             <Debugging>
+              <GenerateDebugInfo Value="False"/>
               <DebugInfoType Value="dsDwarf3"/>
               <UseLineInfoUnit Value="False"/>
+              <StripSymbols Value="True"/>
             </Debugging>
+            <LinkSmart Value="True"/>
           </Linking>
           <Other>
-            <CustomOptions Value="-dVamLykTan_Prog
--dTrackFrame"/>
+            <CustomOptions Value="-d_TrackFrame
+-d_VJ_Set
+-dTrackID
+-dDJ
+-d_VJ
+-d_Prog
+-d_Ethernet
+-d_Run
+-d_Test
+-d_Cue
+-dOBS_Tools"/>
           </Other>
         </CompilerOptions>
       </Item>
@@ -187,6 +304,9 @@
     </RunParams>
     <RequiredPackages>
       <Item>
+        <PackageName Value="bgracontrols"/>
+      </Item>
+      <Item>
         <PackageName Value="LCL"/>
       </Item>
     </RequiredPackages>
@@ -196,14 +316,26 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
+        <Filename Value="..\..\..\Programmierung\Lazarus\ufunction.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
         <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="Track_ID"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="..\..\..\Programmierung\Lazarus\ufunction.pas"/>
+        <Filename Value="..\..\..\Programmierung\Lazarus\uconst.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\Programmierung\Lazarus\set_data.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\..\Programmierung\Lazarus\uvar.pas"/>
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
