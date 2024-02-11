@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Linux"/>
+    <Units>
+      <Unit>
+        <Filename Value="QR.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="_qr.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QR_Frame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="93"/>
+        <CursorPos Y="102"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="qr4obs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="QR4OBSFrame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="QR4OBS"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="5"/>
+        <CursorPos Y="25"/>
+        <UsageCount Value="60"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="5"/>
+        <CursorPos X="9" Y="195"/>
+        <FoldState Value=" TCOa4 TIU36014 pj2jP1E222 pkTlg1@1]KYlT1{F1 PajC1 T7lCa5="/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../Programmierung/Lazarus/uconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="94"/>
+        <CursorPos X="45" Y="149"/>
+        <UsageCount Value="59"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../Programmierung/Lazarus/uvar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="3" Y="12"/>
+        <UsageCount Value="58"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="_genre.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Genre"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/components/lazutils/uitypes.pas"/>
+        <UnitName Value="UITypes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="39"/>
+        <UsageCount Value="21"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../Programmierung/Lazarus/ufunction.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="58"/>
+        <UsageCount Value="49"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Track-Frame/main.pas"/>
+        <ComponentName Value="Track_ID"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="212"/>
+        <CursorPos X="33" Y="233"/>
+        <UsageCount Value="26"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="193"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/sysutils.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="674"/>
+        <CursorPos X="10" Y="674"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/lazbarcodes/src/ubarcodes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="404"/>
+        <CursorPos X="33" Y="430"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="831"/>
+        <CursorPos X="17" Y="821"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../Programmierung/MyFrames/qr.pas"/>
+        <ComponentName Value="Qr_Frame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="QR"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="65"/>
+        <CursorPos X="3" Y="84"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../.config/QR4OBS/QR-List.QRD"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="14" Y="82"/>
+        <UsageCount Value="20"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/packages/fcl-base/src/inifiles.pp"/>
+        <UnitName Value="IniFiles"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="101"/>
+        <CursorPos X="3" Y="127"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/include/customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2128"/>
+        <CursorPos X="3" Y="2136"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3573"/>
+        <CursorPos Y="3599"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos X="35" Y="78"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Track-Frame/_genre.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="161"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="428"/>
+        <CursorPos X="3" Y="455"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="633"/>
+        <CursorPos X="14" Y="658"/>
+        <UsageCount Value="11"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/packages/rtl-objpas/src/inc/system.uitypes.pp"/>
+        <UnitName Value="System.UITypes"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="16"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="28" Y="28"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/include/winapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="154"/>
+        <CursorPos Y="180"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="79"/>
+        <CursorPos X="3" Y="96"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/interfacebase.pp"/>
+        <UnitName Value="InterfaceBase"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="199"/>
+        <CursorPos X="2" Y="225"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/lclplatformdef.pas"/>
+        <UnitName Value="LCLPlatformDef"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="32"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="402"/>
+        <CursorPos X="16" Y="428"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Track-Frame/qr_text.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../Track-Frame/qr_text.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="_qr.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/Recordings/VamLykTan/Mixe 2023/Live-Mix/Roctronics @ Sunday.cue"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/sysstr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2356"/>
+        <CursorPos X="77" Y="2358"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/Recordings/VamLykTan/Mixe 2023/Live-Mix/2023-11-23_12h18m49s.cue"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="7"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="358" Column="3" TopLine="339"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="357" Column="81" TopLine="331"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="22" Column="43"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="357" Column="81" TopLine="331"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="23" Column="47" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="111" Column="17" TopLine="24"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="25" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="73" Column="20" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="81" Column="46" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="105" Column="45" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="104" Column="45" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="_genre.pas"/>
+        <Caret Line="53" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="_genre.pas"/>
+        <Caret Line="55" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="82" Column="46" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="83" Column="46" TopLine="63"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="83" Column="46" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="_qr.pas"/>
+        <Caret Line="82" Column="46" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="649" Column="30" TopLine="160"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="180" Column="14" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="184" Column="59" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="182" TopLine="145"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="671" Column="3" TopLine="183"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="654" Column="56" TopLine="200"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="672" Column="77" TopLine="201"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="9" Column="40"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="672" Column="38" TopLine="201"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="672" Column="89" TopLine="200"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="673" Column="78" TopLine="201"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="672" TopLine="202"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
+        <Caret Line="676" Column="69" TopLine="345"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
