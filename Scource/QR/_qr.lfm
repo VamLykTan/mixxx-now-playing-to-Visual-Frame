@@ -1,0 +1,9 @@
+object QR_Frame: TQR_Frame
+  Left = 546
+  Height = 70
+  Top = 284
+  Width = 516
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.3.0.0'
+end

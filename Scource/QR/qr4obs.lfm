@@ -1,0 +1,12 @@
+object QR4OBSFrame: TQR4OBSFrame
+  Left = 477
+  Height = 131
+  Top = 210
+  Width = 630
+  Caption = 'QR4OBSFrame'
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  OnShow = FormShow
+  LCLVersion = '2.3.0.0'
+end
