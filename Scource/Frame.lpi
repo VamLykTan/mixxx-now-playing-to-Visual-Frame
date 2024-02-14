@@ -10,6 +10,10 @@
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MinorVersionNr Value="10"/>
+    </VersionInfo>
     <BuildModes>
       <Item Name="ATMega328P" Default="True"/>
       <Item Name="ATtiny45">
@@ -150,29 +154,30 @@
           <Version Value="11"/>
           <PathDelim Value="\"/>
           <Target>
-            <Filename Value="Frame"/>
+            <Filename Value="ToUse\Frame"/>
           </Target>
           <SearchPaths>
             <IncludeFiles Value="$(ProjOutDir);..\..\..\..\fpcupdeluxe\fpcsrc\rtl\unix"/>
             <Libraries Value="\usr\lib\x86_64-linux-gnu\"/>
-            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\;..\..\..\Programmierung\MyFrames"/>
+            <OtherUnitFiles Value="\home\vamlyktan\Entwicklung\Programmierung\Lazarus\"/>
             <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
           </SearchPaths>
           <CodeGeneration>
             <SmartLinkUnit Value="True"/>
             <RelocatableUnit Value="True"/>
-            <TargetProcessor Value="ATHLON64"/>
             <TargetCPU Value="x86_64"/>
             <TargetOS Value="linux"/>
             <Optimizations>
-              <OptimizationLevel Value="4"/>
+              <OptimizationLevel Value="3"/>
             </Optimizations>
+            <SmallerCode Value="True"/>
           </CodeGeneration>
           <Linking>
             <Debugging>
               <DebugInfoType Value="dsDwarf3"/>
-              <UseLineInfoUnit Value="False"/>
+              <UseValgrind Value="True"/>
               <StripSymbols Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
             </Debugging>
             <LinkSmart Value="True"/>
           </Linking>
@@ -186,7 +191,22 @@
 -d_Ethernet
 -d_Run
 -d_Test
--dCue"/>
+-dOBS_Tools
+-dThread"/>
+            <OtherDefines Count="12">
+              <Define0 Value="_TrackFrame"/>
+              <Define1 Value="_VJ_Set"/>
+              <Define2 Value="TrackID"/>
+              <Define3 Value="DJ"/>
+              <Define4 Value="_VJ"/>
+              <Define5 Value="_Prog"/>
+              <Define6 Value="_Ethernet"/>
+              <Define7 Value="_Run"/>
+              <Define8 Value="_Test"/>
+              <Define9 Value="Cue"/>
+              <Define10 Value="OBS_Tools"/>
+              <Define11 Value="_Cue"/>
+            </OtherDefines>
           </Other>
         </CompilerOptions>
       </Item>
@@ -339,6 +359,9 @@
         <IsPartOfProject Value="True"/>
       </Unit>
     </Units>
+    <Debugger>
+      <StoreDebuggerClassConfInSession Value="True"/>
+    </Debugger>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
@@ -385,6 +408,9 @@
       </Item>
       <Item>
         <Name Value="EFOpenError"/>
+      </Item>
+      <Item>
+        <Name Value="EStringListError"/>
       </Item>
     </Exceptions>
   </Debugging>

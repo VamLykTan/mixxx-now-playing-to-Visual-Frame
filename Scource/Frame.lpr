@@ -5,7 +5,7 @@ program Frame;
 uses
   {$IFDEF UNIX}
   {$ifdef Thread}
-  cmem, cthreads,
+  {cmem, }cthreads,
   {$endif}
   {$elseif defined HASAMIGA}
   athreads,
