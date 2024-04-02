@@ -79,9 +79,15 @@ object Track_ID: TTrack_ID
   end
   object TrackTime: TTimer
     Enabled = False
-    Interval = 10
     OnTimer = TrackTime_Run
     Left = 144
+    Top = 24
+  end
+  object BCTimer: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = BcTimer_Run
+    Left = 216
     Top = 24
   end
 end
