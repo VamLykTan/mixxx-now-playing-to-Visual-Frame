@@ -7,18 +7,18 @@
       <Unit>
         <Filename Value="Frame.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="21"/>
-        <CursorPos X="12" Y="51"/>
-        <UsageCount Value="179"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="33"/>
+        <UsageCount Value="172"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Lazarus/ufunction.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="73"/>
-        <CursorPos X="78" Y="77"/>
-        <UsageCount Value="179"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="48"/>
+        <CursorPos X="3" Y="59"/>
+        <UsageCount Value="172"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -28,39 +28,35 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="256"/>
-        <CursorPos X="28" Y="308"/>
-        <FoldState Value=" TII3Q0212112 PdoS9 TLk40l T3mf0Z1 T0pHP43"/>
-        <UsageCount Value="155"/>
+        <CursorPos Y="181"/>
+        <UsageCount Value="148"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Lazarus/uconst.pas"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="76"/>
-        <CursorPos Y="187"/>
-        <FoldState Value=" TIjM1k5 PMiT1 TCjNV2]8M hjT{41033l"/>
-        <UsageCount Value="120"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="145"/>
+        <CursorPos X="118" Y="168"/>
+        <UsageCount Value="113"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="5"/>
-        <TopLine Value="150"/>
-        <CursorPos X="3" Y="176"/>
-        <UsageCount Value="116"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="580"/>
+        <UsageCount Value="109"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Lazarus/uvar.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="29" Y="19"/>
-        <UsageCount Value="30"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -72,7 +68,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="33"/>
         <CursorPos X="3" Y="60"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="35"/>
       </Unit>
       <Unit>
         <Filename Value="qr4obs.pas"/>
@@ -83,7 +79,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="267"/>
         <CursorPos X="70" Y="286"/>
-        <UsageCount Value="54"/>
+        <UsageCount Value="55"/>
       </Unit>
       <Unit>
         <Filename Value="_qr.pas"/>
@@ -93,7 +89,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="54"/>
         <CursorPos X="47" Y="73"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
       </Unit>
       <Unit>
         <Filename Value="_video.pas"/>
@@ -103,7 +99,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="19"/>
         <CursorPos X="52" Y="46"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
       </Unit>
       <Unit>
         <Filename Value="qr_text.pas"/>
@@ -112,13 +108,13 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="39"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="23"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../.config/QR4OBS/QR-List.QRD"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="72" Y="7"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -127,7 +123,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="101"/>
         <CursorPos X="5" Y="128"/>
-        <UsageCount Value="35"/>
+        <UsageCount Value="36"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -135,7 +131,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="156"/>
         <CursorPos X="3" Y="172"/>
-        <UsageCount Value="19"/>
+        <UsageCount Value="20"/>
       </Unit>
       <Unit>
         <Filename Value="_main.pas"/>
@@ -145,7 +141,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="130"/>
         <CursorPos X="97" Y="158"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit>
       <Unit>
         <Filename Value="settings.pas"/>
@@ -154,25 +150,25 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Settings"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="36"/>
+        <UsageCount Value="37"/>
       </Unit>
       <Unit>
         <Filename Value="unit1.pas"/>
         <UnitName Value="Unit1"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="24"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/bgrabitmap-master/bgrabitmap/bctypes.pas"/>
         <UnitName Value="BCTypes"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="15" Y="13"/>
-        <UsageCount Value="16"/>
+        <UsageCount Value="17"/>
       </Unit>
       <Unit>
         <Filename Value="backup/main.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -180,7 +176,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="8"/>
         <CursorPos X="10" Y="27"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/forms.pp"/>
@@ -188,7 +184,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1464"/>
         <CursorPos X="3" Y="1373"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/packages/fcl-base/src/inifiles.pp"/>
@@ -196,33 +192,33 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="714"/>
         <CursorPos X="3" Y="719"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/include/customform.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="3126"/>
         <CursorPos X="3" Y="3128"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="settings.lfm"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="21"/>
         <CursorPos X="5" Y="43"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/osutilsh.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="31" Y="15"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -230,13 +226,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="795"/>
         <CursorPos X="3" Y="821"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.sh"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="5" Y="48"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit>
       <Unit>
@@ -245,7 +241,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="658"/>
         <CursorPos X="3" Y="675"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/bgracontrols-master/bclabel.pas"/>
@@ -253,7 +249,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="67"/>
         <CursorPos X="14" Y="93"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -261,19 +257,19 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2"/>
         <CursorPos X="28" Y="28"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../mixxx tools/mixxx-now-playing-master/mixxx-now-playing.sh"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="27" Y="20"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -281,7 +277,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="573"/>
         <CursorPos Y="619"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/bgracontrols-master/bcbasectrls.pas"/>
@@ -289,7 +285,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="337"/>
         <CursorPos X="3" Y="362"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -297,7 +293,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="4236"/>
         <CursorPos Y="4262"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="main.lfm"/>
@@ -305,7 +301,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="72"/>
         <CursorPos X="4" Y="125"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -314,64 +310,64 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="10"/>
         <CursorPos X="14" Y="31"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/2023-02-07_18h45m16s.cue"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="8" Y="2"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/2023-02-05_16h02m17s.cue"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/2023-02-12_16h09m25s.cue"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/Dark Rock 01.cue"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="56" Y="21"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/New Year&apos;s Eve Metal 22_23.cue"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="43" Y="14"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-vj-system.local,share=dj-vj-rechner/Mixxx/Recordings/VamLykTan/2023/Gothic Rock 01.cue"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="22" Y="2"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Musik/Mixxx/Recordings/VamLykTan/2023/2022-12-31_17h37m19s.cue"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="8"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Musik/Mixxx/Recordings/VamLykTan/2023/Gothic Rock 01.cue"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Downloads/Gam Test/V4L2/fpcVideo4L2-master/demos/DemoOriginal/mainform.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -383,13 +379,13 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="178"/>
         <CursorPos X="3" Y="132"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="48"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/sysutils.pp"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="680"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Package/Lazvideocapture/yuv2rgb.pas"/>
@@ -397,7 +393,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="102"/>
         <CursorPos X="3" Y="109"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Package/Lazvideocapture/videocapture.pas"/>
@@ -405,40 +401,40 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="55"/>
         <CursorPos X="14" Y="80"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/Package/Lazvideocapture/videodev2.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1301"/>
         <CursorPos X="29" Y="1334"/>
-        <UsageCount Value="12"/>
+        <UsageCount Value="13"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=vj-system.local,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="44"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/onlinepackagemanager/packages/bgrabitmap-master/bgrabitmap/bgrabitmap.pas"/>
         <UnitName Value="BGRABitmap"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/include/canvas.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="1807"/>
         <CursorPos X="3" Y="1816"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../mixxx-now-playing"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="68"/>
-        <UsageCount Value="23"/>
+        <CursorPos X="35"/>
+        <UsageCount Value="21"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -448,12 +444,12 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="20"/>
-        <UsageCount Value="40"/>
+        <UsageCount Value="41"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/examples_work_dir/VLC_test/lclvlc.pp"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/config_lazarus/examples_work_dir/multithread_wait/waitforunit1.pas"/>
@@ -464,7 +460,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="40"/>
         <CursorPos Y="66"/>
-        <UsageCount Value="7"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/lclproc.pas"/>
@@ -472,7 +468,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1184"/>
         <CursorPos X="3" Y="1192"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/components/lazutils/lazloggerbase.pas"/>
@@ -480,20 +476,20 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="752"/>
         <CursorPos X="3" Y="763"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/inc/threadh.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="34"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/inc/thread.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="226"/>
         <CursorPos X="3" Y="229"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/MyFrames/qr.pas"/>
@@ -504,7 +500,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="49"/>
         <CursorPos X="2" Y="101"/>
-        <UsageCount Value="49"/>
+        <UsageCount Value="50"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/MyFrames/fcol.pas"/>
@@ -513,38 +509,38 @@
         <ResourceBaseClass Value="Frame"/>
         <UnitName Value="FCol"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="6"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../.config/VeeJee/VeeJee-Live/Settings.tsol"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="qr4obs.lfm"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="23" Y="17"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../.config/QR4OBS/QR-ListQRD"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/fina.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="3" Y="44"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="../../../Programmierung/MyFrames/qr.lfm"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="89"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -552,14 +548,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="454"/>
         <CursorPos X="113" Y="468"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="main (Kopie).lfm"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="73"/>
         <CursorPos X="5" Y="125"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -567,12 +563,12 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="785"/>
         <CursorPos X="67" Y="817"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../.config/nautilus/search-metadata"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -580,25 +576,25 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1417"/>
         <CursorPos X="3" Y="1387"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="9"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Videos/VeeJee/Move/glmix 200501011127.glm"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="126"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="11"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="main (noch eine Kopie).pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="441"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="11"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="46"/>
+        <CursorPos X="39"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
@@ -607,19 +603,19 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="177"/>
         <CursorPos X="14" Y="202"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=192.168.188.6,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=192.168.188.6,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.sh"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="28" Y="25"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Bash"/>
       </Unit>
       <Unit>
@@ -627,7 +623,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="163"/>
         <CursorPos X="3" Y="178"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/components/lazutils/uitypes.pas"/>
@@ -635,7 +631,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="30"/>
         <CursorPos X="3" Y="56"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/packages/rtl-objpas/src/inc/system.uitypes.pp"/>
@@ -643,21 +639,21 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <CursorPos X="6" Y="16"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/sysutils/sysstr.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="2357"/>
         <CursorPos Y="2382"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/components/vlc/lclvlc.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="44"/>
         <CursorPos Y="70"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/stdctrls.pp"/>
@@ -665,7 +661,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="665"/>
         <CursorPos X="3" Y="691"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Downloads/Gam Test/VideoTest/TFMainForm.pas"/>
@@ -675,27 +671,27 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="137"/>
         <CursorPos X="3" Y="145"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../Downloads/Gam Test/VideoTest/videodev2.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="430"/>
         <CursorPos X="6" Y="456"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/bunxh.inc"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="118" Y="24"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/bunxovl.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="212"/>
         <CursorPos X="2" Y="260"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/components/lazutils/fileutil.pas"/>
@@ -703,14 +699,14 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="169"/>
         <CursorPos X="56" Y="220"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/packages/gtk1/src/glib/glib.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="65"/>
         <CursorPos X="4" Y="88"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/comctrls.pp"/>
@@ -718,7 +714,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="547"/>
         <CursorPos X="3" Y="573"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/controls.pp"/>
@@ -726,38 +722,38 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1689"/>
         <CursorPos X="14" Y="1714"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="12"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/lazarus/lcl/lresources.pp"/>
         <UnitName Value="LResources"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="25"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/aliasctp.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="8"/>
         <CursorPos X="3" Y="33"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/unix/baseunix.pp"/>
         <UnitName Value="BaseUnix"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpcupdeluxe/fpcsrc/rtl/objpas/objpas.pp"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="8" Y="36"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="qr_text.lfm"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit>
       <Unit>
@@ -765,19 +761,18 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1347"/>
         <CursorPos X="3" Y="1350"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="46"/>
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
         <Filename Value="/run/user/1000/gvfs/smb-share:server=192.168.188.5,share=musik/Mixxx/NOW-PLAYING/mixxx-now-playing-master/mixxx-now-playing.txt"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="9"/>
+        <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="None"/>
       </Unit>
       <Unit>
@@ -788,151 +783,128 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="150"/>
         <CursorPos X="2" Y="169"/>
-        <UsageCount Value="9"/>
-      </Unit>
-      <Unit>
-        <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/Recordings/VamLykTan/Mixe 2023/Live-Mix/Roctronics @ Sunday.cue"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="291"/>
-        <UsageCount Value="10"/>
-        <DefaultSyntaxHighlighter Value="None"/>
-      </Unit>
-      <Unit>
-        <Filename Value="/run/user/1000/gvfs/smb-share:server=dj-rechner.local,share=musik/Mixxx/Recordings/VamLykTan/Mixe 2023/Live-Mix/Roctronics @ Sunday.cue2"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="290"/>
-        <CursorPos X="23" Y="343"/>
-        <UsageCount Value="11"/>
-        <DefaultSyntaxHighlighter Value="None"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../QR/_qr.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="145"/>
-        <CursorPos X="75" Y="176"/>
         <UsageCount Value="10"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="348" TopLine="342"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
-        <Caret Line="682" TopLine="630"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
-        <Caret Line="667" Column="38" TopLine="631"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
-        <Caret Line="678" Column="22" TopLine="631"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
-        <Caret Line="679" TopLine="630"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="221" TopLine="128"/>
-      </Position>
-      <Position>
-        <Filename Value="../../../Programmierung/Lazarus/set_data.pas"/>
-        <Caret Line="664" TopLine="629"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="334" Column="20" TopLine="275"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="351" Column="16" TopLine="332"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="354" Column="32" TopLine="280"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="356" Column="54" TopLine="281"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="338" Column="3" TopLine="303"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="184" TopLine="89"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="183" TopLine="88"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="322" TopLine="112"/>
+        <Filename Value="Frame.lpr"/>
+        <Caret Line="47" Column="2" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="Frame.lpr"/>
-        <Caret Line="26" Column="15"/>
+        <Caret Line="47" Column="2" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="Frame.lpr"/>
+        <Caret Line="23" TopLine="14"/>
       </Position>
       <Position>
         <Filename Value="main.pas"/>
-        <Caret Line="82" Column="25" TopLine="57"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="68" Column="3" TopLine="18"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="106" Column="3" TopLine="93"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="307" Column="19" TopLine="299"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="195" Column="11" TopLine="104"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="366" Column="8" TopLine="302"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="305" Column="27" TopLine="248"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="371" Column="3" TopLine="248"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="317" TopLine="248"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="53" Column="30" TopLine="11"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="238" Column="34" TopLine="189"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="241" Column="36" TopLine="191"/>
-      </Position>
-      <Position>
-        <Filename Value="main.pas"/>
-        <Caret Line="308" Column="28" TopLine="256"/>
+        <Caret Line="140" Column="9" TopLine="121"/>
       </Position>
       <Position>
         <Filename Value="../../../Programmierung/Lazarus/uconst.pas"/>
-        <Caret Line="187" Column="3" TopLine="97"/>
+        <Caret Line="37" Column="11" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/uconst.pas"/>
+        <Caret Line="164" Column="9" TopLine="135"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="450" Column="43" TopLine="411"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="115" Column="30" TopLine="90"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="446" Column="30" TopLine="414"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="454" TopLine="429"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="10" Column="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Frame.lpr"/>
+        <Caret Column="22"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="126" TopLine="109"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="293" TopLine="283"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="329" Column="57" TopLine="320"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/ufunction.pas"/>
+        <Caret Line="79" Column="3" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="11"/>
+      </Position>
+      <Position>
+        <Filename Value="../../../Programmierung/Lazarus/ufunction.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="392" TopLine="382"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="240" TopLine="235"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="18" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="74" Column="3" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="180" Column="18" TopLine="143"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="64" Column="3" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="63" Column="3" TopLine="38"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="181" TopLine="91"/>
+      </Position>
+      <Position>
+        <Filename Value="Frame.lpr"/>
+        <Caret Line="48" Column="49" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="Frame.lpr"/>
+        <Caret Line="53" Column="62" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="Frame.lpr"/>
+        <Caret Line="56" TopLine="13"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="181"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -179,14 +179,16 @@
           <Other>
             <CustomOptions Value="-d_TrackFrame
 -d_VJ_Set
+-d_QR_Prog
 -dTrackID
 -dDJ
 -d_VJ
--d_Prog
+-dProg
 -d_Ethernet
+-d_With_VideoCard
+-d_With_VideoFile
 -d_Run
--d_Test
--dCue"/>
+-dTest"/>
           </Other>
         </CompilerOptions>
       </Item>
@@ -285,12 +287,10 @@
 -dTrackID
 -dDJ
 -d_VJ
--d_Prog
+-dProg
 -d_Ethernet
 -d_Run
--d_Test
--d_Cue
--dOBS_Tools"/>
+-dTest"/>
           </Other>
         </CompilerOptions>
       </Item>

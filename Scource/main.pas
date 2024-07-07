@@ -49,8 +49,8 @@ type
   TTrack_ID                     = class(TForm)
     BCLabel1                 : TBCLabel;
     Button1                  : TButton;
-    Image1                   : TImage;
-    Texte1, Texte2           : TLabel;
+    Image1 : TImage;
+    Texte1, Texte2: TLabel;
     PaintBox1                : TPaintBox;
     TrackTime                : TTimer;
 
@@ -65,21 +65,19 @@ type
 
   private
     // Thread Spezische Kombonenten
-//    ACriticalSection: TRTLCriticalSection;
+    ACriticalSection: TRTLCriticalSection;
 
     // Components
 
     // Types
-    {$ifdef CUE}
-    TrackList                : TTrack;
-    Cue_Load                 : boolean;
-    {$endif}
+//    CUEFile                  : TCUEFile;
 
     // Var as number
-    _2X, _2Y, _i, ReadTime   : word;
+    _2X, _2Y, _i             : Byte;
+    ReadTime                 : word;
 
     // var as bool
-    Up, Manuell              : boolean;
+    Up, Manuell, Auto_QR     : boolean;
 
     // var as letter
     MTrackFile               : String;
@@ -103,7 +101,7 @@ type
 var
   Track_ID                   : TTrack_ID;
   i                          : byte;
-//  Clear_Text                 : String;
+  Clear_Text                 : String;
 
 implementation
 
@@ -190,16 +188,12 @@ begin
 
   // Komponenten, welche keine Arrays bedürfen
   s                          := TStringList.Create;
-  {$ifdef CUE}
-  TrackList                  := TTrack.Create;
-  {$endif}
 
   Screen                     := TScreen.Create(NIL);
   with Track_ID do begin
     Caption                  := 'Track - to - OBS';
     Width                    := 1000;
-//    Color                    := $0026267B;   // $001C78E9
-    Color                    := clBlack;   // $001C78E9
+    Color                    := $0026267B;   // $001C78E9
     if Screen.MonitorCount > 1 then begin
        Left                  := 1354;
        Top                   := 967;
@@ -212,7 +206,6 @@ begin
     end;
   with BCLabel1 do begin
     Align                    := alTop;
-    Height                   := 40;
     with Background do begin
       Color                  := $0026267B;
       ColorOpacity           := 80;
@@ -235,10 +228,10 @@ begin
     Alignment                := taCenter;
     Left                     := 500 - (Canvas.TextWidth(Umlaut_Kill('ERROR Enter EXIT - File Not Found')) div 2);
     Top                      := BCLabel1.Top;
-    Height                   := 40;
+    Height                   := 60;
     with font do begin
       Name                   := 'DamnedDeluxe';
-      Size                   := -12;
+      Size                   := -15;
       Color                  := $0000A7FF;
       Name                   := 'DamnedDeluxe';
       end;
@@ -297,60 +290,25 @@ begin
 end;
 
 procedure TTrack_ID.TrackTime_run(Sender: TObject);
-var
-  mm, ss, zzz                          : word;
-  Index                                : byte;
-  temp                                 : String;
 begin
   if     Manuell then Mixxx_File       := MTrackFile;
   if not Manuell then begin
-    {$ifdef Prog}
-    if FileExists(TrackFile) then
-      Mixxx_File                       := TrackFile;
-    {$else ifdef DJ}
     if FileExists(TrackFile[0]) then
       Mixxx_File                       := TrackFile[0];
     if FileExists(TrackFile[1]) then
       Mixxx_File                       := TrackFile[1];
-    {$endif}
     S.LoadFromFile(Mixxx_File);
-    {$ifdef Cue}
-    if S[0] <> temp then Cue_Load      := False;
-    temp                               := S[0];
-    if S[0] = 'DJ VAMLYKTAN - ROCTRONICS @ SUNDAY          ' then begin
-      if NOT Cue_Load then begin
-        TrackList.LoadCUE_Data('/run/user/1000/gvfs/smb-share:server=dj-rechner,share=musik/Mixxx/Recordings/VamLykTan/Mixe 2023/Live-Mix/Roctronics @ Sunday.cue');
-        Cue_Load                       := True;
-      end;
-    {$endif}
     inc(ReadTime);
     Button1.Caption                    := '&Read ' + intToStr(150 - ReadTime);
     if ReadTime = 150 then
       ReadTime                         := 0;
     if S.Capacity <> 0 then begin
       BCLabel1.Visible                 := True;
+      Clear_Text                       := '';
       with Texte2 do begin
-        {$ifdef Cue}
-        inc(zzz);
-        if zzz = 1000 then begin
-          zzz                          := 0;
-          inc(ss);
-          if ss = 60 then begin
-            ss                         := 0;
-            inc(mm);
-            end;
-          end;
-        if TrackList.Cue.Time[index] = IntToStr(mm) + ':' + IntToStr(ss) + ':' + IntToStr(zzz) then begin
-          Caption                      := TrackList.Cue.Artist[Index] + #10#13 + TrackList.Cue.Song[index];
-          Track_ID.Caption             := IntToStr(mm) + ':' + IntToStr(ss) + ':' + IntToStr(zzz);
-          inc(index);
-          end;
-        {$else ifdnef CUE}
         Caption                        := Umlaut_Kill(S[0]);
-        {$endif}
         Left                           := (BCLabel1.Width - Texte2.Width) div 2;
-//        Top                            := 35;
-        Top                            := (BCLabel1.Top + Texte2.Height) div 2;
+        Top                            := 35;
         Alignment                      := taCenter;
         end;
       BCLabel1.Background.Gradient1.Point1xPercent := _2X;
@@ -364,13 +322,13 @@ begin
           dec(_2X)
         else Up                        := True;
         end;
+     Caption                           := Clear_Text;
       end;
     end
     else begin
       BCLabel1.Visible                 := False;
       Texte2.Caption                   := Umlaut_Kill('ERROR Enter EXIT - File Not Found');
       end;
-    {$ifdef Cue}end;{$endif}
   Texte2.Left                          := (BCLabel1.Width - Texte2.Width) div 2;
 end;
 
