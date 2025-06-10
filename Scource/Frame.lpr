@@ -3,20 +3,16 @@ program Frame;
 {$mode objfpc}{$H+}
 
 uses
-  {$IFDEF UNIX}
-  {$ifdef Thread}
-  cmem, cthreads,
-  {$endif}
-  {$elseif defined HASAMIGA}
+  {$ifdef HASAMIGA}
   athreads,
-  {$ENDIF}
+  {$endif}
   Interfaces, sysutils, Dialogs, Forms,// this includes the LCL widgetset
 
   // User Forms
   main,
 
   // User Units
-  uconst, ufunction, set_data, uvar;
+  uconst, set_data, uvar, ufunction;
 
 {$R *.res}
 
@@ -44,7 +40,7 @@ end;
 
 begin
   RequireDerivedFormResource:=True;
-  application.scaled:=true;
+  Application.Scaled:=True;
   Application.Initialize;
   Application.CreateForm(TTrack_ID,    Track_ID);
 //  IDE_Load('/usr/bin/', 'nautilus', [TrackFile[0]], []);
